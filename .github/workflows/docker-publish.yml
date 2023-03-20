@@ -92,7 +92,7 @@ jobs:
           context: .
           build-args: ${{ steps.prepare.outputs.buildx_args }}
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.prepare.outputs.tags }}
+          tags: ${{ steps.meta.outputs.tags }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
