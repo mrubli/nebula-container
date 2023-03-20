@@ -34,4 +34,4 @@ jobs:
         echo ::set-output name=buildx_args::${BUILDX_ARGS}
         echo ::set-output name=tags::${TAGS}
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag ${VERSION}
