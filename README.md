@@ -1,4 +1,6 @@
-# nebula
+# Nebula
+
+This was forked from https://github.com/buildsociety/nebula
 
 [Nebula](https://github.com/slackhq/nebula) is a scalable overlay networking
 tool with a focus on performance, simplicity and security. It lets you
