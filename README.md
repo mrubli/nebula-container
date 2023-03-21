@@ -1,13 +1,5 @@
 # nebula
 
-<span style="display:block;text-align:center">[![GitHub](https://img.shields.io/static/v1.svg?color=db422a&logoColor=2a6bdb&style=for-the-badge&label=buildsociety&message=GitHub&logo=github)](https://github.com/buildsociety "view the source for all of our repositories.")</span>
-
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/buildsociety/nebula/build?color=db422a&logoColor=FFFFFF&style=for-the-badge)
-![Docker Pulls](https://img.shields.io/docker/pulls/buildsociety/nebula?color=db422a&logoColor=2a6bdb&style=for-the-badge)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/buildsociety/nebula?color=db422a&logoColor=2a6bdb&style=for-the-badge)
-![Docker Stars](https://img.shields.io/docker/stars/buildsociety/nebula?color=db422a&logoColor=2a6bdb&style=for-the-badge)
-![Docker Image Version (latest by date)](https://img.shields.io/docker/v/buildsociety/nebula?color=db422a&logoColor=2a6bdb&style=for-the-badge)
-
 [Nebula](https://github.com/slackhq/nebula) is a scalable overlay networking
 tool with a focus on performance, simplicity and security. It lets you
 seamlessly connect computers anywhere in the world. Nebula is portable, and
