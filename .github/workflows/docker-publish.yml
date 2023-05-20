@@ -40,7 +40,7 @@ jobs:
           VERSION=$(curl --silent "https://api.github.com/repos/slackhq/nebula/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
           echo ::set-output name=version::${VERSION}
           GOMINVERSION=$(curl -s https://raw.githubusercontent.com/slackhq/nebula/master/Makefile | awk -F "=" '/GOMINVERSION =/ {print $2}' | tr -d ' ')
-          echo ::set-output name=version::${GOMINVERSION}
+          echo ::set-output name=gominversion::${GOMINVERSION}
           BUILDX_ARGS=$( \
             echo VERSION=${VERSION}; \
             echo GOMINVERSION=${GOMINVERSION}; \
