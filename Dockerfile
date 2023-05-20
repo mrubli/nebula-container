@@ -1,5 +1,5 @@
 ARG GOMINVERSION
-FROM --platform=${BUILDPLATFORM:-linux/amd64} golang:${GOVERSION}-alpine as builder
+FROM --platform=${BUILDPLATFORM:-linux/amd64} golang:${GOMINVERSION}-alpine as builder
 
 ARG VERSION
 
