@@ -21,16 +21,14 @@ RUN printf "I am running on ${BUILDPLATFORM:-linux/amd64}, building for ${TARGET
 FROM --platform=${TARGETPLATFORM:-linux/amd64} alpine:latest
 
 ARG BUILD_DATE
-ARG VCS_REF
 ARG VERSION
 ARG TARGETPLATFORM
 
-LABEL maintainer="buildsociety" \
+LABEL maintainer="Martin Rubli" \
       org.opencontainers.image.created=$BUILD_DATE \
-      org.opencontainers.image.url="https://github.com/buildsociety/nebula" \
-      org.opencontainers.image.source="https://github.com/buildsociety/nebula" \
+      org.opencontainers.image.url="https://github.com/mrubli/nebula-container" \
+      org.opencontainers.image.source="https://github.com/mrubli/nebula-container" \
       org.opencontainers.image.version=$VERSION \
-      org.opencontainers.image.revision=$VCS_REF \
       org.opencontainers.image.vendor="buildsociety" \
       org.opencontainers.image.title="nebula" \
       org.opencontainers.image.description="Nebula is a scalable overlay networking tool with a focus on performance, simplicity and security from Slack" \
