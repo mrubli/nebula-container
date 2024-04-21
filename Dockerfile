@@ -29,7 +29,6 @@ LABEL maintainer="Martin Rubli" \
       org.opencontainers.image.url="https://github.com/mrubli/nebula-container" \
       org.opencontainers.image.source="https://github.com/mrubli/nebula-container" \
       org.opencontainers.image.version=$VERSION \
-      org.opencontainers.image.vendor="buildsociety" \
       org.opencontainers.image.title="nebula" \
       org.opencontainers.image.description="Nebula is a scalable overlay networking tool with a focus on performance, simplicity and security from Slack" \
       org.opencontainers.image.licenses="MIT"
