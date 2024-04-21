@@ -35,8 +35,8 @@ LABEL maintainer="Martin Rubli" \
 
 COPY --from=builder /go/build/${TARGETPLATFORM:-linux/amd64}/nebula /usr/local/bin/nebula
 COPY --from=builder /go/build/${TARGETPLATFORM:-linux/amd64}/nebula-cert /usr/local/bin/nebula-cert
-RUN nebula -version
-RUN nebula-cert -version
+#RUN nebula -version
+#RUN nebula-cert -version
 
 VOLUME ["/config"]
 
