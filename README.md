@@ -28,7 +28,7 @@ development and caution must be exercised when using them.
 | :----: | --- |
 | latest | Stable Nebula Releases |
 | edge | Latest Nebula Releases |
-| v1.8.2 | Nebula 1.8.2 Release |
+| v1.9.3 | Nebula 1.9.3 Release |
 
 ## Usage
 
