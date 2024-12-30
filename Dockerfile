@@ -40,5 +40,7 @@ COPY --from=builder /go/build/${TARGETPLATFORM:-linux/amd64}/nebula-cert /usr/lo
 
 VOLUME ["/config"]
 
-ENTRYPOINT [ "/usr/local/bin/nebula" ]
+COPY nebula-wrapper.sh /usr/local/bin/
+
+ENTRYPOINT [ "/usr/local/bin/nebula-wrapper.sh" ]
 CMD ["-config", "/config/config.yaml"]
