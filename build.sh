@@ -2,8 +2,8 @@
 
 set -eu
 
-VERSION="v1.8.2"
-GOMINVERSION="1.20"
+VERSION="v1.9.5"
+GOMINVERSION="1.23"
 NAME="ghcr.io/mrubli/nebula-container"
 TAG="${VERSION#v}"
 
